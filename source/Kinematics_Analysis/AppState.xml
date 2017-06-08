@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="org.opensim.utils.ApplicationState" id="ApplicationState0">
+  <void property="stateObjects">
+   <void method="put">
+    <string>MotionsDB</string>
+    <object class="org.opensim.view.motions.MotionsDBDescriptor"/>
+   </void>
+   <void method="put">
+    <string>ViewDB</string>
+    <object class="org.opensim.view.pub.ViewDBDescriptor" id="ViewDBDescriptor0">
+     <void property="cameraAttributes">
+      <void method="add">
+       <array class="double" length="13">
+        <void index="0">
+         <double>0.06719832023331579</double>
+        </void>
+        <void index="1">
+         <double>0.27656179596999947</double>
+        </void>
+        <void index="2">
+         <double>2.8691043828087595</double>
+        </void>
+        <void index="3">
+         <double>-0.019880454838275996</double>
+        </void>
+        <void index="4">
+         <double>0.6327592040146066</double>
+        </void>
+        <void index="5">
+         <double>-1.4901161138336505E-9</double>
+        </void>
+        <void index="6">
+         <double>0.0720176305221444</double>
+        </void>
+        <void index="7">
+         <double>0.9900694721297393</double>
+        </void>
+        <void index="8">
+         <double>0.12073069721787973</double>
+        </void>
+        <void index="9">
+         <double>0.030105627912814244</double>
+        </void>
+        <void index="10">
+         <double>-0.12314765132241984</double>
+        </void>
+        <void index="11">
+         <double>0.9919316040643865</double>
+        </void>
+        <void index="12">
+         <double>30.02401440768384</double>
+        </void>
+       </array>
+      </void>
+     </void>
+     <void property="offsetsList">
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+     </void>
+     <void property="viewNames">
+      <void method="add">
+       <string>View0</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>OpenSimDB</string>
+    <object class="org.opensim.view.pub.OpenSimDBDescriptor" id="OpenSimDBDescriptor0">
+     <void property="currentModelIndex">
+      <int>0</int>
+     </void>
+     <void property="fileNames">
+      <void method="add">
+       <string>C:\Users\Camille\OpenSim\ME485ProjectWorkSpace\STS\STS.osim</string>
+      </void>
+     </void>
+     <void property="modelIds">
+      <void method="add">
+       <int>0</int>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>PluginsDB</string>
+    <object class="org.opensim.view.pub.PluginsDB" id="PluginsDB0">
+     <void property="fileNames">
+      <void method="add">
+       <string>C:\Users\Camille\OpenSim\OpenSim 3.3\plugins\sljCommon.dll</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>CoordinateViewer</string>
+    <object class="org.opensim.coordinateviewer.CoordinateViewerDescriptor" id="CoordinateViewerDescriptor0">
+     <void property="poses">
+      <void method="add">
+       <object class="org.opensim.view.ModelPose" id="ModelPose0">
+        <void property="coordinateNames">
+         <void method="add">
+          <string>torso_rz</string>
+         </void>
+         <void method="add">
+          <string>torso_tx</string>
+         </void>
+         <void method="add">
+          <string>torso_ty</string>
+         </void>
+         <void method="add">
+          <string>hip_flexion</string>
+         </void>
+         <void method="add">
+          <string>knee_flexion</string>
+         </void>
+         <void method="add">
+          <string>ankle_flexion</string>
+         </void>
+         <void method="add">
+          <string>shoulder_flexion</string>
+         </void>
+         <void method="add">
+          <string>elbow_flexion</string>
+         </void>
+        </void>
+        <void property="coordinateValues">
+         <void method="add">
+          <double>-0.152718116147402</double>
+         </void>
+         <void method="add">
+          <double>0.00250717895376898</double>
+         </void>
+         <void method="add">
+          <double>1.36603073975338</double>
+         </void>
+         <void method="add">
+          <double>0.170026073010666</double>
+         </void>
+         <void method="add">
+          <double>0.182137916681575</double>
+         </void>
+         <void method="add">
+          <double>0.164829959818308</double>
+         </void>
+         <void method="add">
+          <double>-1.33547387339033E-15</double>
+         </void>
+         <void method="add">
+          <double>0.715584993317669</double>
+         </void>
+        </void>
+        <void property="poseName">
+         <string>STS</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
